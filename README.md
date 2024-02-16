@@ -1,8 +1,8 @@
-## seth.run alpha page - version 2.0
+## seth.run alpha page
 Alpha site for seth.run.
 
 ### Current Topic
-Version 2
+User-made designs page.
 
-### Alpha is closed!
-I'm testing Version 2 on this domain.
+### Alpha is OPEN
+You can access the page at https://sithydev.github.io/seth.run-alpha/ 

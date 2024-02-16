@@ -61,7 +61,7 @@
         border: none;
         padding: 10px 20px;
         border-radius: 5px;
-        cursor: pointer;
+        cursor: not-allowed;
         font-weight: bold;
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
@@ -71,11 +71,10 @@
         margin: 0 auto;
         transition: background-color 0.3s;
         text-decoration: none; /* Remove underline */
+        opacity: 0.6;
+        pointer-events: none;
     }
 
-    .check-button:hover {
-        background-color: #7289DA; /* Discord's "blurple" color */
-    }
 
     .check-button-icon {
         margin-left: 10px;
@@ -91,18 +90,11 @@
     <h2 class="project-title">Design title</h2>
     <p class="project-description">Descripton set by author.<br><br><i>Uploaded: February 12th, 2024</i><br><i>Created by <b>Author</b></i></p>
     <a href="javascript:void" class="check-button">
-        View image⠀
-            <i class="fa-solid fa-image fa-fade fa-lg"></i>
+        View (DISABLED)
     </a>
 </div>
 
 </div>
-
-    <!-- Copyright Footer -->
-    <footer>
-        &copy; 2024 Seth Harlow
-    </footer>
-
     <!-- Load FontAwesome JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 </body>

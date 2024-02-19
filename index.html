@@ -48,7 +48,24 @@
             animation: textGradient 5s linear infinite;
         }
 
-        /* Other CSS styles... */
+        .link-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .link-icon {
+            font-size: 24px;
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .link-icon[data-icon="fa-brands fa-github"]:hover {
+            color: #6e5494;
+        }
 
         /* Additional styling for project cards */
         .project-card {
@@ -99,8 +116,13 @@
     <a href="javascript:void" class="check-button">
         Disabled
     </a>
+
+<div class="link-section">
+    <a href="https://github.com/sithydev/seth.run-alpha/" class="link-icon" data-icon="fa-brands fa-github"><i class="fa-brands fa-github"></i></a>
+</div>
+    
 <div>
-    <footer>This design is currently not viewable.<br>Reason: <b>Example</b></footer>
+    <footer>This design is currently not viewable.<br>Reason: <b>Example</b><br><br>Click GitHub icon for more info about Alpha site.</footer>
 </div>
     <!-- Load FontAwesome JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>

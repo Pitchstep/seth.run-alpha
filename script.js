@@ -6,7 +6,7 @@ const password = 'yourpassword'; // Set your password here
 form.addEventListener('submit', function(event) {
     event.preventDefault();
     if (passwordInput.value === password) {
-        window.location.href = 'welcome.html'; // Redirect to welcome page
+        window.location.href = 'welcome'; // Redirect to welcome page
     } else {
         errorMessage.textContent = 'Incorrect password. Please try again.';
     }

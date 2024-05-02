@@ -1,1 +1,233 @@
-Unavailable
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title and stuff -->
+    <title>seth.run</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+      <style>
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            background-color: black;
+            color: white;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* center content within the body */
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+            background: linear-gradient(45deg, purple, cyan);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: textGradient 5s linear infinite;
+        }
+
+        @keyframes textGradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+          
+        .sethrunpara {
+            font-size: 18px;
+            margin: 20px 0;
+            line-height: 1.6;
+            background: linear-gradient(45deg, purple, cyan);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: textGradient 5s linear infinite;
+        }
+        .welcomeTo {
+            font-size: 16px;
+            margin: -20px;
+        }
+          
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        /* additional styling for small text */
+        .small-text {
+            font-size: 12px;
+            opacity: 0.8;
+            margin-top: 10px;
+        }
+
+        /* footer styling gg */
+        footer {
+            font-size: 12px;
+            margin-top: auto;
+            opacity: 0.6;
+        }
+
+.animated-button {
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 36px;
+  border: 4px solid;
+  border-color: transparent;
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: greenyellow;
+  box-shadow: 0 0 0 2px greenyellow;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+  text-decoration: none;
+  position: absolute;
+  width: 24px;
+  fill: greenyellow;
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+  text-decoration: none;
+  right: 16px;
+}
+
+.animated-button .arr-2 {
+  text-decoration: none;  
+  left: -25%;
+}
+
+.animated-button .circle {
+  text-decoration: none;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  text-decoration: none;  
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+  text-decoration: none;  
+  box-shadow: 0 0 0 12px transparent;
+  color: #212121;
+  border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+  text-decoration: none;  
+  right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+  text-decoration: none;  
+  left: 16px;
+}
+
+.animated-button:hover .text {
+  text-decoration: none;  
+  transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+  text-decoration: none;  
+  fill: #212121;
+}
+
+.animated-button:active {
+  text-decoration: none;  
+  scale: 0.95;
+  box-shadow: 0 0 0 4px greenyellow;
+}
+
+.animated-button:hover .circle {
+  text-decoration: none;  
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+
+          
+      </style>
+</head>
+<body>
+
+    <div class="content-wrapper">
+        <div class="welcomeTo" <p><i>welcome to</i></p></div>
+        <h1>seth.run</h1>
+
+
+        <div class="link-buttons">
+        <p><br><br>Hello internet user!<br>You're probably here to play <b>The RNG Button</b>, so click the button below to play!</p>
+        </div>
+
+        <!-- link section (div) -->
+
+<a href="https://seth.run/rng">
+<button class="animated-button">
+  <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+    ></path>
+  </svg>
+  <span class="text">The RNG Button</span>
+  <span class="circle"></span>
+  <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+    ></path>
+  </svg>
+</button>
+</a>
+        <!-- footer -->
+        <footer>
+            <br><i>Last updated: April 22nd, 2024</i><br>© 2023-2024 Pitchstep
+        </footer>
+    </div>
+
+    <!-- load fontawesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+
+
+</body>
+</html>
